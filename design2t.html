@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="dashboard-container">
+        <h1 id="teacher-name">Welcome, <span id="userDisplay"></span></h1>
+        <div class="details">
+            <div class="classes-block">
+                <h2>Classes</h2>
+                <ul id="classes-list">
+                    <!-- Classes will be listed here -->
+                </ul> 
+            </div>
+            <div class="attendance-block">
+                <h2>Student Attendance</h2>
+                <table id="attendance-table">
+                    <thead>
+                        <tr>
+                            <th>Student Name</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Attendance data will be listed here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="design.js"></script>
+</body>
+</html>
