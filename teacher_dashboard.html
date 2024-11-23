@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body> 
+  <div class="tdash">
+    <header>
+        <div class="logo">MyAttendance</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="dashboard-container">
+        <h1>Welcome, <span id="userDisplay"></span></h1>
+        <div class="details">
+            <div class="classes-block">
+                <h2>Classes</h2>
+                <ul id="classes-list">
+                    <!-- Classes will be listed here -->
+                </ul> 
+            </div>
+            <div class="attendance-block">
+                <h2>Student Attendance</h2>
+                <table id="attendance-table">
+                    <thead>
+                        <tr>
+                            <th>Student Name</th>
+                            <th>In-Time</th>
+                            <th>Out-Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Attendance data will be listed here -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="leave-section">
+                <h2>Leave Requests</h2>
+                <table id="leave-table">
+                    <thead>
+                        <tr>
+                            <th>Student Name</th>
+                            <th>Date</th>
+                            <th>Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Leave requests will be listed here -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="message-section">
+                <h2>Messages from Students</h2>
+                <ul id="message-list">
+                    <!-- Messages will be listed here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 MyAttendance Made by Aman. All rights reserved.</p>
+    </footer>
+  </div>
+    <script src="teacher_dashboard.js"></script>
+</body>
+</html>
